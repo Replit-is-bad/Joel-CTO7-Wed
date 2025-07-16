@@ -9,6 +9,7 @@ function setup() {
   // Ball sprite
   ball = new Sprite();
   ball.x = 100;
+  ball
   // End Basic shape testing
 
    // Create a bouncing ball sprite
