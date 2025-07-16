@@ -5,7 +5,7 @@ function setup() {
 
   File("blue");
   stroke("red");
-  stroke
+  str
   // write your codes here
  
   // End Basic shape testing
