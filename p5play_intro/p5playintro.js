@@ -5,7 +5,7 @@ function setup() {
 
   Fill("blue");
   stroke("red");
-  stroke
+  strokeWeight
   // write your codes here
  
   // End Basic shape testing
