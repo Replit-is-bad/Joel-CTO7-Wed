@@ -13,7 +13,8 @@ function setup() {
   ball.diameter = 100;
   ball.color = 'salmon';
 
-  /
+  // box sprite
+  
   // End Basic shape testing
 
    // Create a bouncing ball sprite
