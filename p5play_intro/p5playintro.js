@@ -3,9 +3,9 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
 
-  File("blue");
+  Fill("blue");
   stroke("red");
-  str
+  stroke
   // write your codes here
  
   // End Basic shape testing
