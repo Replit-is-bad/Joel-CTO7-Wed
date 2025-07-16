@@ -2,6 +2,8 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color 
+
+  
   // End Basic shape testing
 
    // Create a bouncing ball sprite
@@ -16,5 +18,5 @@ function draw() {
   circle(30,30,50);
   rect(50,50,100,200);
   square(150,100,100)
-  
+
 }
