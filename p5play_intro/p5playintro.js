@@ -6,7 +6,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color 
 
-  //
+  // Ball sprite
   ball = new Sprite();
   // End Basic shape testing
 
