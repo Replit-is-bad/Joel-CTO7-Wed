@@ -14,5 +14,6 @@ function draw() {
   strokeWeight(10);
 
   circle(30,30,50);
-  react(50,50,100,200);
+  rect(50,50,100,200);
+  
 }
