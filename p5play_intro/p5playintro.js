@@ -4,6 +4,7 @@ function setup() {
   background(250); //background color
 
   FileList("blue")
+  stroke()
   // write your codes here
  
   // End Basic shape testing
