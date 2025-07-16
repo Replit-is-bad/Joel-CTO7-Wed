@@ -4,7 +4,8 @@ function setup() {
   background(250); //background color
 
   File("blue");
-  stroke("red")
+  stroke("red");
+  stroke
   // write your codes here
  
   // End Basic shape testing
