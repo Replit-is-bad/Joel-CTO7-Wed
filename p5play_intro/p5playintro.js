@@ -10,7 +10,7 @@ function setup() {
   ball = new Sprite();
   ball.x = 100;
   ball.y = 200;
-  ball.diameter = 400;
+  ball.diameter = 100;
   ball.color = 'salmon';
   // End Basic shape testing
 
