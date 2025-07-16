@@ -14,7 +14,7 @@ function setup() {
   ball.color = 'salmon';
 
   // box sprite
-  
+  box = new Sprite
   // End Basic shape testing
 
    // Create a bouncing ball sprite
