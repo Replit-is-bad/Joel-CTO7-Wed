@@ -1,3 +1,6 @@
+let ball
+
+
 function setup() {
   // Set up the canvas
   new Canvas(800, 400);
