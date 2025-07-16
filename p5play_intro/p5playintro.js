@@ -3,7 +3,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
 
-  Fill("blue");
+  fill("blue");
   stroke("red");
   strokeWeight(10);
 
