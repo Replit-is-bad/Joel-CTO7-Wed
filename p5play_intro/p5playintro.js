@@ -17,6 +17,7 @@ function setup() {
   box = new Sprite();
   box.x = 100;
   box.y = 100;
+  box.dia
   // End Basic shape testing
 
    // Create a bouncing ball sprite
