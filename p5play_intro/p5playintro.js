@@ -18,7 +18,8 @@ function setup() {
   box.x = 100;
   box.y = 100;
   box.w = 100;
-  box.h = 50
+  box.h = 50;
+  box color
   // End Basic shape testing
 
    // Create a bouncing ball sprite
