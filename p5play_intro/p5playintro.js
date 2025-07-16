@@ -19,7 +19,7 @@ function setup() {
   box.y = 100;
   box.w = 100;
   box.h = 50;
-  box.color = 'black'
+  box.color = 'black';
   // End Basic shape testing
 
    // Create a bouncing ball sprite
