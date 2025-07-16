@@ -8,7 +8,7 @@ function setup() {
   strokeWeight(10);
 
   circle(30,30,50);
-  
+  rectangle()
  
   // End Basic shape testing
 
