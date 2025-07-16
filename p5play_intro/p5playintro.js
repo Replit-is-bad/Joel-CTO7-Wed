@@ -1,4 +1,4 @@
-let ball
+let ball;
 
 
 function setup() {
@@ -6,7 +6,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color 
 
-  let s = new Sprite()
+  ball = new Sprite()
   // End Basic shape testing
 
    // Create a bouncing ball sprite
