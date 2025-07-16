@@ -9,7 +9,7 @@ function setup() {
   // Ball sprite
   ball = new Sprite();
   ball.x = 100;
-  ball
+  ball.y =
   // End Basic shape testing
 
    // Create a bouncing ball sprite
@@ -17,12 +17,12 @@ function setup() {
 }
 
 function draw() {
-  fill("blue");
-  stroke("red");
-  strokeWeight(10);
+  // fill("blue");
+  // stroke("red");
+  // strokeWeight(10);
 
-  circle(30,30,50);
-  rect(50,50,100,200);
-  square(150,100,100)
+  // circle(30,30,50);
+  // rect(50,50,100,200);
+  // square(150,100,100)
 
 }
