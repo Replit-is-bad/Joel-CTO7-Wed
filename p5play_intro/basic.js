@@ -32,7 +32,7 @@ function setup() {
 
   fill(255,0,0);
   textSize(19)
-  text
+  text("the sum is  ")
 
 }
 
