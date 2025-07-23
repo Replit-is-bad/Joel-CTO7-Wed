@@ -44,4 +44,5 @@ function draw() {
   fill(0,0,255);
   textSize(14);
   text("ball  (" + int(ball,x) + "," + int(ball.y) + ")" , 10,20);
+  text("ball  (" + int(ball,x) + "," + int(ball.y) + ")" , 10,20);
 }
