@@ -43,5 +43,5 @@ function draw() {
 
   fill(0,0,255);
   textSize(14);
-  text()
+  text("ball ")
 }
