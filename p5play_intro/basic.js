@@ -37,6 +37,7 @@ function setup() {
   text("the product is " + product , 50,100);
 
 
-  let abce
+  let bace = 10
+  let hight
 }
 
