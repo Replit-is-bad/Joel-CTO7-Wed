@@ -74,4 +74,4 @@ function draw() {
 }
 
 let a = 5;
-let 10
+let b = 10;
