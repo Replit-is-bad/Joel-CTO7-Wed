@@ -20,7 +20,7 @@ function setup() {
   ball.color = 'salmon';
   ball.vel.x = 3;
   ball.vel.y =3;
-  ball.bounciness
+  ball.bounciness = 5
 
   // box sprite
   box = new Sprite();
