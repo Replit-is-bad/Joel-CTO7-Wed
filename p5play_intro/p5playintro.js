@@ -31,7 +31,7 @@ function setup() {
   box.w = 100;
   box.h = 50;
   box.color = 'black';
-  
+  box.collider = "dynamic";
   // End Basic shape testing
 
    // Create a bouncing ball sprite
