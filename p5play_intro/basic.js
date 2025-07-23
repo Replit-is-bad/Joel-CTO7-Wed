@@ -1,3 +1,7 @@
+
+let a = 5;
+  let b = 10;
+
 function setup() {
   // write your codes here
 
@@ -19,6 +23,6 @@ function setup() {
   let a = 5;
   let b = 10;
 
-  
+
 }
 
