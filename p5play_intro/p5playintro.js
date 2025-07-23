@@ -69,6 +69,6 @@ function draw() {
 
   if(mouse.presses('left')) {
     let y = new Sprite (mouseX , mouseY , 30 ,30);
-    y.collider = "dynamic";
+    y.collider = "static";
   }
 }
