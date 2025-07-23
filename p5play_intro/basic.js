@@ -30,7 +30,8 @@ function setup() {
   let product = a * b;
   console.log(product);
 
-  fill(255,0,0)
+  fill(255,0,0);
+  text
 
 
 }
