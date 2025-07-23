@@ -37,9 +37,9 @@ function setup() {
   text("the product is " + product , 50,100);
 
 
-  let bace = 10
-  let height = 40
-  let area = 0.5 * bace *height
+  let base = 10;
+  let height = 40;
+  let area = 0.5 * base *height;
 
   text("the area is " + area , 50,200);
 }
