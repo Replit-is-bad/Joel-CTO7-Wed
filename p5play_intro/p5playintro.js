@@ -22,7 +22,7 @@ function setup() {
   ball.vel.y =3;
   ball.bounciness = 5;
   ball.collider = "dynamic";
-  
+
 
   // box sprite
   box = new Sprite();
@@ -31,6 +31,7 @@ function setup() {
   box.w = 100;
   box.h = 50;
   box.color = 'black';
+  
   // End Basic shape testing
 
    // Create a bouncing ball sprite
