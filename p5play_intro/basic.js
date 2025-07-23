@@ -26,7 +26,7 @@ function setup() {
   let sum = a + b;
   console.log(sum);
    
-  let product = a * b
-  con
+  let product = a * b;
+  console.log()
 }
 
