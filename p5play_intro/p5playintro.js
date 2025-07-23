@@ -72,3 +72,5 @@ function draw() {
     y.collider = "static";
   }
 }
+
+let
