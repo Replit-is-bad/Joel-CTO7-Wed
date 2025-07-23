@@ -5,12 +5,8 @@ function setup() {
   // Set up the canvas
   new Canvas(800, 400);
   background(250); //background color 
-  
 
-
-
-
-
+  world.gravity.y(10)
 
   // Ball sprite
   ball = new Sprite();
@@ -20,7 +16,7 @@ function setup() {
   ball.color = 'salmon';
   ball.vel.x = 3;
   ball.vel.y =3;
-  ball.bounciness = 5;
+  ball.bounciness = 1;
   ball.collider = "dynamic";
 
 
@@ -66,5 +62,7 @@ function draw() {
   box.x = mouseX;
   box.y = mouseY;
 
-
+  if(mouse.presses('left')) {
+    let x 
+  }
 }
