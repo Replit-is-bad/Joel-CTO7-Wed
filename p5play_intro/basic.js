@@ -30,7 +30,7 @@ function setup() {
   let product = a * b;
   console.log(product);
 
-  fill
+  fill(255,0,0)
 
 
 }
