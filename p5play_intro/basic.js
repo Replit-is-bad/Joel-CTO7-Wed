@@ -31,10 +31,10 @@ function setup() {
   console.log(product);
 
   fill(255,0,0);
-  textSize(19)
-  text("the sum is " + sum , 50,50)
+  textSize(19);
+  text("the sum is " + sum , 50,50);
 
-  text("the product is " + product , 50,100)
+  text("the product is " + product , 50,100);
 
 }
 
