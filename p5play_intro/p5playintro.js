@@ -41,6 +41,8 @@ function draw() {
   // rect(50,50,100,200);
   // square(150,100,100)
 
+  back
+
   fill(0,0,255);
   textSize(14);
   text("ball : (" + int(ball.x) + "," + int(ball.y) + ")" , 10,20);
