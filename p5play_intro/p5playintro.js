@@ -59,8 +59,8 @@ function draw() {
   if (ball.y < 0 + ball.diameter /2 || ball.y > height - ball.diameter / 2) {
     ball.vel.y *= -1;
   }
-  box.x = mouseX;
-  box.y = mouseY;
+ box.x = mouseX;
+  // box.y = mouseY; // 
 
   if(mouse.presses('left')) {
     let x = new Sprite (mouseX , mouseY , 30 ,30);
