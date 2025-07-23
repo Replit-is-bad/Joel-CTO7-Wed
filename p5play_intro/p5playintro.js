@@ -52,16 +52,16 @@ function draw() {
   fill(0,0,255);
   textSize(14);
   text("ball : (" + int(ball.x) + "," + int(ball.y) + ")" , 10,20);
-  text("mouse : (" + mouseX + "," + mouseY + ")" , 10,40);
+  text("mouse : (" + mouseX + "," + mouseY + ")" , 10, 40);
 
 
   //IF BALL X POSITION GOES OFF THE LEFT WALL OR RIGHT WALL
-  if (ball.x < 0 + ball.diameter /2 || ball.y > width - ball.diameter / 2) {
+  if (ball.x < 0 + ball.diameter /2 || ball.x > width - ball.diameter / 2) {
     ball.vel.x *= -1;
   }
   
   if (ball.y < 0 + ball.diameter /2 || ball.y > height - ball.diameter / 2) {
-    ball.vel.x *= -1;
+    ball.vel.y *= -1;
   }
   box.x = mouseX
   box.y = mouseY
