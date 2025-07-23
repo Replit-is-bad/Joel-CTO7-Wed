@@ -21,7 +21,7 @@ function setup() {
   // write your codes here
 
   let sum = a + b
-
+  console.log(sum)
 
 }
 
