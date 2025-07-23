@@ -41,7 +41,7 @@ function draw() {
   // rect(50,50,100,200);
   // square(150,100,100)
 
-  back
+  background(220);
 
   fill(0,0,255);
   textSize(14);
