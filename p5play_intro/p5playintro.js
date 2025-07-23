@@ -49,5 +49,5 @@ function draw() {
   text("mouse : (" + mouseX + "," + mouseY + ")" , 10,40);
 
 
-  //
+  //IF BALL X POSITION GOES O
 }
