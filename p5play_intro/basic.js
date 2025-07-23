@@ -30,6 +30,8 @@ function setup() {
   let product = a * b;
   console.log(product);
 
+  FileList()
+
 
 }
 
