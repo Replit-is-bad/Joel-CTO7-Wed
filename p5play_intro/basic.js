@@ -34,7 +34,7 @@ function setup() {
   textSize(19)
   text("the sum is " + sum , 50,50)
 
-  text("the sum is " + sum , 50,50)
+  text("the product is " + product , 50,50)
 
 }
 
