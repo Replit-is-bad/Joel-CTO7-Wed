@@ -40,5 +40,7 @@ function setup() {
   let bace = 10
   let height = 40
   let area = 0.5 * bace *height
+
+  text("the product is " + area , 50,100);
 }
 
