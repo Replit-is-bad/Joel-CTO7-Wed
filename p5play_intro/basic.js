@@ -38,6 +38,6 @@ function setup() {
 
 
   let bace = 10
-  let hight
+  let height = 40
 }
 
