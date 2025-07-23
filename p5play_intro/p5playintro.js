@@ -56,7 +56,7 @@ function draw() {
 
 
   //IF BALL X POSITION GOES OFF THE LEFT WALL OR RIGHT WALL
-  if (ball.x < 0 + ball.diameter /2 || ball.y > height - ball.diameter / 2) {
+  if (ball.x < 0 + ball.diameter /2 || ball.y > width - ball.diameter / 2) {
     ball.vel.x *= -1;
   }
 
