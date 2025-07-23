@@ -18,6 +18,7 @@ function setup() {
   ball.y = 200;
   ball.diameter = 100;
   ball.color = 'salmon';
+  ball.vel.
 
   // box sprite
   box = new Sprite();
