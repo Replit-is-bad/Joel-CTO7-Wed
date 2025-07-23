@@ -27,6 +27,6 @@ function setup() {
   console.log(sum);
    
   let product = a * b;
-  console.log()
+  console.log(product);
 }
 
