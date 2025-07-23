@@ -4,7 +4,8 @@ let b = 10;
 
 function setup() {
   // write your codes here
-
+  new Canvas(800, 400);
+  background(250)
   // --- Exercise: Area of Triangle ---
   // write your codes here
 
@@ -29,6 +30,6 @@ function setup() {
   let product = a * b;
   console.log(product);
 
-  
+
 }
 
