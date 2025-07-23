@@ -31,7 +31,7 @@ function setup() {
   console.log(product);
 
   fill(255,0,0);
-  text
+  textSize(19)
 
 
 }
