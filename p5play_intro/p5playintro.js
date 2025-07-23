@@ -42,5 +42,5 @@ function draw() {
   // square(150,100,100)
 
   fill(0,0,255);
-  
+  textSize
 }
