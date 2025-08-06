@@ -65,12 +65,62 @@ textSize(16);
 // } else {
 //   console.log('sec');
 // }
-let i = 19
 
-while (i >=0) {
-  console.log(i);
-  text(i,50 + (19 - i)*20,100);
-  i = i-2
+// let i = 19
 
+// while (i >=0) {
+//   console.log(i);
+//   text(i,50 + (19 - i)*20,100);
+//   i = i-2
+
+// }
+
+// let names = ["Me",'kayla',"Oliver","Ethan"];
+
+// console.log(names[0]);
+// names[2]="kv";
+
+// console.log(names[2]);
+// names.push('alan');
+
+// console.log(names[4]);
+
+// names.unshift("bruce");
+// console.log(names[0]);
+
+// names.splice(2,0,'christ');
+// console.log(names[2]);
+
+// names.splice(1,1);
+// console.log(names);
+
+// names.splice(namesindextOf("Joel"), 1);
+// console.log(names);
+
+// console.log(names.length);
+
+// console.log(names.includes("kayla"));
+
+// for(let item of names ) {
+//   console.log(item);
+// }
+let i = 1;
+
+let gro = ["apple","bread","milk"];
+
+gro.push('orange');
+gro.push('butter');
+
+gro.shift();
+
+gro.splice(1,1,"kalay");
+
+console.log(gro);
+
+for(let item of gro ) {
+text(item ,i* 50 ,50 );
+
+i = i+2;
 }
+
 }
