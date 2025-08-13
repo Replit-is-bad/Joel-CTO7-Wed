@@ -27,8 +27,8 @@ function setup() {
     floor.x = width/2;
     floor.y = 200;
     floor.width =30;
-    f.hight =30;
-    bird.img = flapMidI
+    floor.hight =30;
+    floor.img = flapMidI
 }
 
 function draw() {
