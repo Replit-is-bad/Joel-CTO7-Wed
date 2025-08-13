@@ -1,6 +1,9 @@
 let bird, floor;
-let flapMidImg, bg, 
+let flapMidImg, bg, base;
 
+function setup() {
+    
+}
 
 
 function setup() {
