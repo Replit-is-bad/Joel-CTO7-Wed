@@ -16,6 +16,9 @@ function setup() {
     bird.hight =30;
     bird.img = flapMidImg;
 
+
+    wo
+
 }
 
 function draw() {
