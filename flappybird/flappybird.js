@@ -16,7 +16,7 @@ function setup() {
     bird.hight =30;
     bird.img = flapMidImg;
 
-
+    bird.collider
     world.gravity.y = 10;
 
 }
