@@ -17,7 +17,7 @@ function setup() {
     bird.img = flapMidImg;
 
 
-    world.gravity
+    world.gravity.y = 10;
 
 }
 
