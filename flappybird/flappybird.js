@@ -43,7 +43,7 @@ function draw() {
 
     fill('blue');
     textSize(14);
-    text('vel.y :  ' + bird.vel.y);
+    text('vel.y :  ' + bird.vel.y.toFix);
     text('isMoving : ' + bird.isMoving, 10 , 40);
     text('sleeping : ' + bird.sleeping, 10 ,40);
 } 
