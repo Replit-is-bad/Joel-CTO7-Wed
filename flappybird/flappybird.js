@@ -24,7 +24,7 @@ function setup() {
 
 
     floor = new Sprite();
-    bird.x = width/2;
+    floor.x = width/2;
     bird.y = 200;
     bird.width =30;
     bird.hight =30;
