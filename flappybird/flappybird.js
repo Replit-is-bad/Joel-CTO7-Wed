@@ -1,10 +1,9 @@
 let bird, floor;
 let flapMidImg, bg, base;
 
-function setup() {
+function preload() {
     
 }
-
 
 function setup() {
 
