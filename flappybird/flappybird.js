@@ -22,6 +22,13 @@ function setup() {
     bird.bouciness =0.5;
     world.gravity.y = 10;
 
+
+    floor = new Sprite();
+    bird.x = width/2;
+    bird.y = 200;
+    bird.width =30;
+    bird.hight =30;
+    bird.img = flapMidI
 }
 
 function draw() {
