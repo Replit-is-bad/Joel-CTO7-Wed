@@ -28,7 +28,7 @@ function setup() {
     floor.y = 200;
     floor.width =30;
     floor.hight =30;
-    floor.img = flapMidI
+    floor.img = base;
 }
 
 function draw() {
