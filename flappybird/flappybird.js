@@ -26,4 +26,4 @@ function setup() {
 
 function draw() {
     image(bg,0,0,widith,height);
-}
+} 
