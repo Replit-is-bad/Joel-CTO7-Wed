@@ -38,6 +38,6 @@ function draw() {
     
     if(KeyboardEvent.presses('space')) {
         bird.vel.y = -15;
-        bird.sleeping = false
+        bird.sleeping = false;
     }
 } 
