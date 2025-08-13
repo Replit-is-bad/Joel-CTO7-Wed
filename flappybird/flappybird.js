@@ -8,7 +8,7 @@ function preload() {
 }
 
 function setup() {
-    NEW
+    new can
 
 
 }
