@@ -25,7 +25,7 @@ function setup() {
 
     floor = new Sprite();
     floor.x = 200;
-    floor.y = ;
+    floor.y = height - 20;
     floor.width =30;
     floor.hight =30;
     floor.img = base;
