@@ -43,7 +43,7 @@ function draw() {
 
     fill('blue');
     textSize(14);
-    text('is')
+    text('isMoving: ')
     text('')
     text('')
 } 
