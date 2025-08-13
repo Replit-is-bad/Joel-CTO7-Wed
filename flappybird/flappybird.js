@@ -14,6 +14,7 @@ function setup() {
     bird.y = 200;
     bird.width =30;
     bird.hight =30;
+    bird.img = 
 
 }
 
