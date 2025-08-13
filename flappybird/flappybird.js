@@ -29,6 +29,8 @@ function setup() {
     floor.width =400;
     floor.hight =125;
     floor.img = base;
+
+    
 }
 
 function draw() {
