@@ -1,5 +1,5 @@
 let bird, floor;
-let flapMi
+let flapMidImg, bg, 
 
 
 
