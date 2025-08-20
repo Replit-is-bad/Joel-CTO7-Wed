@@ -46,7 +46,8 @@ function draw() {
 
     if (bird.vel.y < - 1) {
         bird.image = flapUpImg;
-        bird.i  
+        bird.rotation = -30
+          
     }
 
     fill('blue');
