@@ -2,4 +2,4 @@
 // console.log(0,600);
 // console.log(400,600);
 
-let b;
+let a,b;
