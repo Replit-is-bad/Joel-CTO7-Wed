@@ -10,8 +10,7 @@
 //     }
 // }
 i = 0
-while (i >=0) {
+while (i) {
   console.log(i);
-  text(i,50 + (19 - i)*20,100);
-  i = i-2
+  
 }
