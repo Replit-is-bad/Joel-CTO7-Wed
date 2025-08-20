@@ -44,7 +44,7 @@ function draw() {
         bird.sleeping = false;
     }
 
-    if (bird.vel)
+    if (bird)
 
     fill('blue');
     textSize(14);
