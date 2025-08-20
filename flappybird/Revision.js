@@ -5,8 +5,8 @@ const pie = 3.1415;
 let oh = 2092389483453476473654673;
 
 function setup() {
-    for (let i; i = i+1;) {
-        consol.log(i)
+    for (let i = 1; i >= 3; i = i+1 ) {
+        consol.log(i);
     }
 }
 
