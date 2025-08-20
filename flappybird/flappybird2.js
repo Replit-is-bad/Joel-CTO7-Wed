@@ -53,7 +53,8 @@ function draw() {
         bird.rotation = 30;
     }
     else {
-        
+        bird.image = flapUpImg;
+        bird.rotation = -30;
     }
     fill('blue');
     textSize(14);
