@@ -1,5 +1,6 @@
 let bird, floor;
 let flapMidImg, bg, base;
+let flapu
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
