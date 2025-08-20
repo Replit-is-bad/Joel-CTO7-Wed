@@ -6,7 +6,7 @@ let oh = 2092389483453476473654673;
 
 function setup() {
     for (let i; i = i+1;) {
-        
+        conol.log
     }
 }
 
