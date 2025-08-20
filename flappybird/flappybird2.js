@@ -45,7 +45,8 @@ function draw() {
     }
 
     if (bird.vel.y < - 1) {
-        bird.image  
+        bird.image = flapUpImg;
+        bird.i  
     }
 
     fill('blue');
