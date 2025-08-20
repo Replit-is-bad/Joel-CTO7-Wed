@@ -16,4 +16,4 @@
 //   i =i + 1
 // }
 
-let classNahIdWin = ["Joel","Oliver","Ethan","Kayla"];
+// let classNahIdWin = ["Joel","Oliver","Ethan","Kayla"];
