@@ -9,7 +9,7 @@
 //         console.log(i);
 //     }
 // }
-
+i = 0
 while (i >=0) {
   console.log(i);
   text(i,50 + (19 - i)*20,100);
