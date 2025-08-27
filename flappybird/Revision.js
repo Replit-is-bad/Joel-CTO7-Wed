@@ -5,7 +5,7 @@
 // let oh = 2092389483453476473654673;
 
 function setup() {
-    for (let i=1; i<=3; i++ ) {
+    for (let i=1; i<=10; i++ ) {
         console.log(i);
     }
 }
