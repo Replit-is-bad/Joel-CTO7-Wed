@@ -78,8 +78,8 @@ function draw() {
         spwanPipePair();
     }
 
-    for(let pipe of pipeGroup){
-        if(pipe.x < -50){
+    for (let pipe of pipeGroup){
+        if (pipe.x < -50){
             pipe.remove();
         }
     }
