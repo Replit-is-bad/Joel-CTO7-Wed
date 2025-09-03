@@ -93,7 +93,9 @@ function spwanPipePair() {
 
     topPipe = new Sprite(400, midY - gap*2 - 200, 52, 320, 'static');
     topPipe.img = pipe;
-    topPipe.rotation = 180;
-        pipeGroup.add(topPipe);
+    topPipe.rotation = -180;
+
+
+    pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
 }
