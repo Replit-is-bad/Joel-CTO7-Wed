@@ -112,4 +112,6 @@ function spwanPipePair() {
     pipeGroup.add(bottomPipe);
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
+
+    topPipe = new sprite
 }
