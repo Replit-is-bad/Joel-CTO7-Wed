@@ -78,6 +78,8 @@ function draw() {
         spwanPipePair();
     }
 
+    for(let pipe of pip)
+
      
 
     fill('blue');
