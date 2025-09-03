@@ -78,7 +78,9 @@ function draw() {
         spwanPipePair();
     }
 
-    for(let pipe of pip)
+    for(let pipe of pipeGroup){
+        
+    }
 
      
 
