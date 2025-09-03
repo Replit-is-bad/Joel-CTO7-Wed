@@ -70,7 +70,7 @@ function draw() {
         spwanPipePair();
     }
 
-    bird.x =
+    bird.x = 
 
      
 
