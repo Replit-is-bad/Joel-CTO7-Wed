@@ -70,6 +70,8 @@ function draw() {
         spwanPipePair();
     }
 
+    bird.x
+
      
 
     fill('blue');
