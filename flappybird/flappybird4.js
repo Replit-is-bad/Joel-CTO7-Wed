@@ -113,5 +113,5 @@ function spwanPipePair() {
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
 
-    topPipe = new Sprite(bird)
+    topPipe = new Sprite(bird.x + 400, )
 }
