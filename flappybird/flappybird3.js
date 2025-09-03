@@ -95,7 +95,7 @@ function spwanPipePair() {
     topPipe.img = pipe;
     topPipe.rotation = -180;
 
-
+    pipeGroup.add(bottomPipe);
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
 }
