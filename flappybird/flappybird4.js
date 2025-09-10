@@ -51,7 +51,9 @@ function setup() {
 
     pipeGroup = new Group();
 
-    //
+    //start screen Sprite
+
+    
 }
 
 function draw() {
