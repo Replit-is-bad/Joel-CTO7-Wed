@@ -53,7 +53,7 @@ function setup() {
 
     //start screen Sprite
 
-    startScreenLabel = 
+    startScreenLabel = new Sprite(width/2)
 }
 
 function draw() {
