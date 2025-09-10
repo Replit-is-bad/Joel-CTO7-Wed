@@ -21,7 +21,7 @@ function preload() {
 
     gameoverImg = loadImage('assets/gameover.png')
 
-    startScreenImg = loadImage('')
+    startScreenImg = loadImage('assets/message.png')
 }
 
 function setup() {
