@@ -99,7 +99,7 @@ function draw() {
         noLoop();
     }
 
-    if(bird.collides(pipeGroup) || bird.collides(floor)) {
+    if(bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
         gameoverLabel = new Sprite(width/2 , height/2, 192,42,'static');
         gameoverLabel = gameoverImg;
         gameoverLabel.layer = 100;
