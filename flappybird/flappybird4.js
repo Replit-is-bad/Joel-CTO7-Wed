@@ -50,6 +50,8 @@ function setup() {
     floor.collider ='static';
 
     pipeGroup = new Group();
+
+    //
 }
 
 function draw() {
