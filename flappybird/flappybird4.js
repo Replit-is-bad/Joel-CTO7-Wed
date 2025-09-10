@@ -8,7 +8,7 @@ let gameoverImg;
 let gameoverLabel;
 let startScreenImg;
 let startScreenLabel;
-let startGame = false
+let startGame = false;
 
 
 function preload() {
@@ -121,7 +121,7 @@ function draw() {
 
     if (kb.presses('space') || mouse.presses()) {
         startGame = true;
-        
+        startScreenLabel.visible = false;
     }
 
 } 
