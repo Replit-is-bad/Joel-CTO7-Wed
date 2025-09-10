@@ -119,6 +119,10 @@ function draw() {
         noLoop();
     }
 
+    if (kb.presses('space') || mouse.presses()) {
+        
+    }
+
 } 
 
 function spwanPipePair() { 
