@@ -95,7 +95,7 @@ function draw() {
 
 function spwanPipePair() { 
 
-    let midY = rand
+    let midY = random(250,)
     let gap = 50;
 
 
