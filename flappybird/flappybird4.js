@@ -103,7 +103,7 @@ function draw() {
         gameoverLabel = new Sprite(width/2 , height/2);
         gameoverLabel = gameoverImg;
         gameoverLabel.layer = 100;
-        game
+        gameoverLabel.x=
     }
 
 } 
