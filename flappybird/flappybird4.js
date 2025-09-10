@@ -99,6 +99,10 @@ function draw() {
         noLoop();
     }
 
+    if(bird.collides(pipeGroup) || bird.collides(floor)) {
+        
+    }
+
 } 
 
 function spwanPipePair() { 
