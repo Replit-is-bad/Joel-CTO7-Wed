@@ -104,6 +104,8 @@ function draw() {
         gameoverLabel = gameoverImg;
         gameoverLabel.layer = 100;
         gameoverLabel.x= camera.x;
+
+        noloop();
     }
 
 } 
