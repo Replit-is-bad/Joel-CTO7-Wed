@@ -100,7 +100,8 @@ function draw() {
     }
 
     if(bird.collides(pipeGroup) || bird.collides(floor)) {
-        gameoverLabel = new Sprite(width/2 , )
+        gameoverLabel = new Sprite(width/2 , height/2);
+        
     }
 
 } 
