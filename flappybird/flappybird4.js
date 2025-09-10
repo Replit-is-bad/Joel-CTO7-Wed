@@ -8,7 +8,7 @@ let gameoverImg;
 let gameoverLabel;
 let startScreenImg;
 let startScreenLabel;
-let startGame = 
+let startGame = false
 
 
 function preload() {
