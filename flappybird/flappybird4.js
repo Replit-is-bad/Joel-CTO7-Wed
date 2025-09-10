@@ -4,6 +4,7 @@ let flapUpImg, flapDownImg
 let pipeGroup;
 let pipe;
 let bottomPipe, topPipe;
+let gameover
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
@@ -96,7 +97,7 @@ function draw() {
     if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 0 ){
         noLoop();
     }
-    
+
 } 
 
 function spwanPipePair() { 
