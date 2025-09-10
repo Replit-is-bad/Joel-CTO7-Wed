@@ -100,7 +100,7 @@ function draw() {
     }
 
     if(bird.collides(pipeGroup) || bird.collides(floor)) {
-        gameoverLabel = new Sprite(width/2 , height/2, 192,42,'sta');
+        gameoverLabel = new Sprite(width/2 , height/2, 192,42,'static');
         gameoverLabel = gameoverImg;
         gameoverLabel.layer = 100;
         gameoverLabel.x= camera.x;
