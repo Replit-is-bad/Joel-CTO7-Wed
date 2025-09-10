@@ -93,8 +93,8 @@ function draw() {
     text('sleeping : ' + bird.sleeping, 10 ,60);
 
 
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
-        noloop();
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 0 ){
+        noLoop();
     }
 } 
 
