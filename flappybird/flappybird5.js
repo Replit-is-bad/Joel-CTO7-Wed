@@ -10,7 +10,7 @@ let startScreenImg;
 let startScreenLabel;
 let startGame = false;
 let score = 0;
-let 
+let numberIme
 
 
 function preload() {
