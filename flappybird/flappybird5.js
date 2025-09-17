@@ -51,7 +51,6 @@ function setup() {
     bird.mass =2;
     bird.drag = 0.5 ;
     bird.bouciness =0.02;
-    world.gravity.y = 0;
 
 
     floor = new Sprite();
