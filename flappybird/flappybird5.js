@@ -185,5 +185,5 @@ function drawScore(x,y,digitWidth,digitHeight) {
 
     let scoreStr = str(score);
 
-    
+    let totalWidth
 }
