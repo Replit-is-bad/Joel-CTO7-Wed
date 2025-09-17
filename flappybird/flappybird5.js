@@ -192,6 +192,6 @@ function drawScore(x,y,digitWidth,digitHeight) {
 
         let xPos = startX + i * digitWidth;
 
-        let digit
+        let digitSprite = new S
     }
 }
