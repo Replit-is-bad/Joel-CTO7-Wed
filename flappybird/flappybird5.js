@@ -194,6 +194,6 @@ function drawScore(x,y,digitWidth,digitHeight) {
 
         let digitSprite = new scoreDigits.Sprite(xPos,y,digitWidth,digitHeight);
 
-        digitSprite.img = numberImages[dig]
+        digitSprite.img = numberImages[digit];
     }
 }
