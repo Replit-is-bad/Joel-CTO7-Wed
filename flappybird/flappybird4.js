@@ -126,9 +126,9 @@ function draw() {
         startScreenLabel.visible = false;
     }
 
-    if (startGame){
-        
-    }
+    
+
+    
 } 
 
 function spwanPipePair() { 
