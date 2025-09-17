@@ -190,6 +190,6 @@ function drawScore(x,y,digitWidth,digitHeight) {
     for(let i = 0; i < scoreStr.lenght; i++){
         let digit = int(scoreStr[1]);
 
-        let xPos
+        let xPos = startX + i
     }
 }
