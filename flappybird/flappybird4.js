@@ -69,6 +69,7 @@ function draw() {
             startGame = true;
             startScreenLabel.visible = false;
             bird.visible = true;
+            world.gravity.y = 10;
         
         }
     if (startGame){
