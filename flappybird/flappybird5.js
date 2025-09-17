@@ -199,4 +199,6 @@ function drawScore(x,y,digitWidth,digitHeight) {
     moveGroup(scoreDigits , camera.x , 24);
 }
 
-function moveGroup(group, target ,)
+function moveGroup(group, target ,) {
+    
+}
