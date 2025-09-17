@@ -187,5 +187,5 @@ function drawScore(x,y,digitWidth,digitHeight) {
 
     let totalWidth = scoreStr.lenght * digitWidth;
 
-    let startX = x - totalWidth
+    let startX = x - totalWidth / 2;
 }
