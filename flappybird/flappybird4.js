@@ -62,73 +62,73 @@ function setup() {
 
 function draw() {
     image(bg,0,0,width,height);
-    
-    if(kb.presses('space') || mouse.presses()) {
-        bird.vel.y = -5;
-        bird.sleeping = false;
-    }
-
-    if (bird.vel.y < - 1) {
-        bird.image = flapUpImg;
-        bird.rotation = -30;  
-    }
-    else if ( bird.vel.y > 1) {
-        bird.image = flapDownImg;
-        bird.rotation = 30;
-    }
-    else {
-        bird.image = flapMidImg;
-        bird.rotation = 0;
-    }
-
-    if (frameCount == 1) {
-        spwanPipePair();
-    }
-
-    bird.x += 3;
-    camera.x = bird.x;
-    floor.x = bird.x;
-    
-    if (frameCount % 90 === 0) {
-        spwanPipePair();
-    }
-
-    for (let pipe of pipeGroup){
-        if (pipe.x < -50){
-            pipe.remove();
+    if (startGame){
+        if(kb.presses('space') || mouse.presses()) {
+            bird.vel.y = -5;
+            bird.sleeping = false;
         }
+
+        if (bird.vel.y < - 1) {
+            bird.image = flapUpImg;
+            bird.rotation = -30;  
+        }
+        else if ( bird.vel.y > 1) {
+            bird.image = flapDownImg;
+            bird.rotation = 30;
+        }
+        else {
+            bird.image = flapMidImg;
+            bird.rotation = 0;
+        }
+
+        if (frameCount == 1) {
+            spwanPipePair();
+        }
+
+        bird.x += 3;
+        camera.x = bird.x;
+        floor.x = bird.x;
+        
+        if (frameCount % 90 === 0) {
+            spwanPipePair();
+        }
+
+        for (let pipe of pipeGroup){
+            if (pipe.x < -50){
+                pipe.remove();
+            }
+        }
+
+        
+
+        fill('blue');
+        textSize(14);
+        text('vel.y :  ' + bird.vel.y.toFixed(2) , 10 ,20);
+        text('isMoving : ' + bird.isMoving, 10 , 40);
+        text('sleeping : ' + bird.sleeping, 10 ,60);
+
+
+        // if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 0 ){
+        //     noLoop();
+        // }
+
+        if(bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
+            gameoverLabel = new Sprite(width/2 , height/2, 192,42,'static');
+            gameoverLabel.img = gameoverImg;
+            gameoverLabel.layer = 100;
+            gameoverLabel.x= camera.x;
+
+            noLoop();
+        }
+
+        if (kb.presses('space') || mouse.presses()) {
+            startGame = true;
+            startScreenLabel.visible = false;
+        }
+
     }
 
-     
-
-    fill('blue');
-    textSize(14);
-    text('vel.y :  ' + bird.vel.y.toFixed(2) , 10 ,20);
-    text('isMoving : ' + bird.isMoving, 10 , 40);
-    text('sleeping : ' + bird.sleeping, 10 ,60);
-
-
-    // if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 0 ){
-    //     noLoop();
-    // }
-
-    if(bird.collides(pipeGroup) || bird.collides(floor) || bird.y <= 15) {
-        gameoverLabel = new Sprite(width/2 , height/2, 192,42,'static');
-        gameoverLabel.img = gameoverImg;
-        gameoverLabel.layer = 100;
-        gameoverLabel.x= camera.x;
-
-        noLoop();
-    }
-
-    if (kb.presses('space') || mouse.presses()) {
-        startGame = true;
-        startScreenLabel.visible = false;
-    }
-
-    
-
-    
+        
 } 
 
 function spwanPipePair() { 
