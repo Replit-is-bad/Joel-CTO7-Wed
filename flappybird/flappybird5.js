@@ -188,7 +188,7 @@ function drawScore(x,y,digitWidth,digitHeight) {
     let startX = x - totalWidth / 2;
 
     for(let i = 0; i < scoreStr.lenght; i++){
-        let digit = int(scoreStr[1]);
+        let digit = int(scoreStr[i]);
 
         let xPos = startX + i * digitWidth;
 
