@@ -9,6 +9,7 @@ let gameoverLabel;
 let startScreenImg;
 let startScreenLabel;
 let startGame = false;
+let score
 
 
 function preload() {
