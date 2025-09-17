@@ -180,6 +180,6 @@ function spwanPipePair() {
 
     
 }
-function dra(x,y,digitWidth,digitHeight) {
-
+function drawScore(x,y,digitWidth,digitHeight) {
+    
 }
