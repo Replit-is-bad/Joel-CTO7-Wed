@@ -179,7 +179,7 @@ function spwanPipePair() {
     
 }
 function drawScore(x,y,digitWidth,digitHeight) {
-    scoreDigits.removeALL();
+    scoreDigits.removeAll();
 
     let scoreStr = str(score);
 
