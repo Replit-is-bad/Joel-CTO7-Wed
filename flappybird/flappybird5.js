@@ -183,5 +183,5 @@ function spwanPipePair() {
 function drawScore(x,y,digitWidth,digitHeight) {
     scoreDigits.removeALL();
 
-    let
+    let score
 }
