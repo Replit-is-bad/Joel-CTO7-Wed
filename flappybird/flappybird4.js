@@ -68,7 +68,7 @@ function draw() {
             startGame = true;
             startScreenLabel.visible = false;
             bird.visible = true;
-            
+        
         }
     if (startGame){
         if(kb.presses('space') || mouse.presses()) {
