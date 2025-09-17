@@ -11,7 +11,7 @@ let startScreenLabel;
 let startGame = false;
 let score = 0;
 let numberImages = [];
-
+let scoreDi
 
 
 function preload() {
