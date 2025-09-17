@@ -58,7 +58,7 @@ function setup() {
     startScreenLabel = new Sprite(width/2, height/2, 50, 50,'none');
     startScreenLabel.img =startScreenImg;
 
-    bird.vi
+    bird.visible = false;
 
 }
 
@@ -67,6 +67,7 @@ function draw() {
     if (kb.presses('space') || mouse.presses()) {
             startGame = true;
             startScreenLabel.visible = false;
+            
         }
     if (startGame){
         if(kb.presses('space') || mouse.presses()) {
