@@ -75,7 +75,7 @@ function setup() {
 
     bird.visible = false;
 
-    drawScore(width/2 , 20 , score , 24 ,36);
+    
 
 }
 
@@ -149,7 +149,7 @@ function draw() {
 
     }
 
-        
+       drawScore(width/2 , 20 , score , 24 ,36); 
 } 
 
 function spwanPipePair() { 
