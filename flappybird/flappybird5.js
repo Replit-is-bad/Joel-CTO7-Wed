@@ -71,6 +71,7 @@ function setup() {
 
     scoreDigits = new Group ;
     scoreDigits.collider = 'none';
+    scoreDigits
 
     bird.visible = false;
 
