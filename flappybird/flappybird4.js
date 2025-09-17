@@ -121,11 +121,6 @@ function draw() {
             noLoop();
         }
 
-        if (kb.presses('space') || mouse.presses()) {
-            startGame = true;
-            startScreenLabel.visible = false;
-        }
-
     }
 
         
