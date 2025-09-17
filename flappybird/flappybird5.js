@@ -196,5 +196,7 @@ function drawScore(x,y,digitWidth,digitHeight) {
 
         digitSprite.img = numberImages[digit];
     }
-    moveGroup(scoreDigits , camera.x , 24)
+    moveGroup(scoreDigits , camera.x , 24);
 }
+
+function moveGroup(group, target ,)
