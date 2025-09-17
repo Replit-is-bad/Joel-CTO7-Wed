@@ -75,6 +75,8 @@ function setup() {
 
     bird.visible = false;
 
+    draw
+
 }
 
 function draw() {
