@@ -17,7 +17,7 @@ let scoreDigits;
 
 function preload() {
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
-    
+
     bg = loadImage('assets/background-day.png');
     base = loadImage('assets/base.png');
 
@@ -30,7 +30,9 @@ function preload() {
 
     startScreenImg = loadImage('assets/message.png');
 
-    
+    for (let i =0; i < 10; ) {
+        
+    }
 }
 
 function setup() {
