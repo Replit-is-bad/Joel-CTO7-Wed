@@ -75,7 +75,7 @@ function setup() {
 
     bird.visible = false;
 
-    drawScore(width/2 , )
+    drawScore(width/2 , 20 , score , )
 
 }
 
