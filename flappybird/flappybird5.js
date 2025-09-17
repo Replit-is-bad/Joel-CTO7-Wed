@@ -181,5 +181,7 @@ function spwanPipePair() {
     
 }
 function drawScore(x,y,digitWidth,digitHeight) {
-    scoreDigits.Re
+    scoreDigits.removeALL();
+
+    let
 }
