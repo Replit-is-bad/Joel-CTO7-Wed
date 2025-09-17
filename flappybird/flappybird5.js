@@ -28,7 +28,7 @@ function preload() {
 
     startScreenImg = loadImage('assets/message.png');
 
-    score
+    scoreDigits = loadImage()
 }
 
 function setup() {
