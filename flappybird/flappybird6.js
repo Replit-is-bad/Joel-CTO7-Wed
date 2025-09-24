@@ -125,7 +125,9 @@ function draw() {
             }
         }
 
-        for(let pi)
+        for(let pipe of pipeGroup) {
+            
+        }
         
 
         fill('blue');
