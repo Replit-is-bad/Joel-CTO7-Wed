@@ -12,7 +12,7 @@ let startGame = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-let flapSound, pointSound, failSound
+let flapSound, pointSound, failSound;
 
 
 
@@ -34,6 +34,7 @@ function preload() {
     for (let i =0; i < 10; i++ ) {
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
+    
 }
 
 function setup() {
