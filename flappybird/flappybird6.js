@@ -169,7 +169,7 @@ function spwanPipePair() {
     topPipe.img = pipe;
     topPipe.rotation = 180;
 
-    topPipe
+    topPipe.passed = flase
 
     pipeGroup.add(bottomPipe);
     pipeGroup.add(topPipe);
