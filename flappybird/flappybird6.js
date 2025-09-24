@@ -36,7 +36,7 @@ function preload() {
     }
 
     flapSound = createAudio('assets/sfx_wing.mp3')
-    pointSound = createAudio('assets/')
+    pointSound = createAudio('assets/sfx_point.mp3')
     failSound = createAudio('assets/')
 }
 
