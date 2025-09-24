@@ -142,8 +142,8 @@ function draw() {
             gameoverLabel = new Sprite(width/2 , height/2, 192,42,'static');
             gameoverLabel.img = gameoverImg;
             gameoverLabel.layer = 100;
-            gameoverLabel.x= camera.x;
-            gameoverLabel.collider
+            gameoverLabel.x = camera.x;
+            gameoverLabel.collider = 'none'
 
             noLoop();
         }
