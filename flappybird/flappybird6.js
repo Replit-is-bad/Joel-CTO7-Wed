@@ -35,7 +35,7 @@ function preload() {
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
 
-    flapSound = cre
+    flapSound = createAudio('')
 }
 
 function setup() {
