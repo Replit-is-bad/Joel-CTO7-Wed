@@ -128,7 +128,6 @@ function draw() {
         for(let pipe of pipeGroup) {
             HTMLAnchorElement
                 debugger
-                
         }
         
 
