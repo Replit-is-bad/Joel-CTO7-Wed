@@ -125,6 +125,7 @@ function draw() {
             }
         }
 
+        for(let pi)
         
 
         fill('blue');
@@ -147,7 +148,7 @@ function draw() {
 
             noLoop();
         }
-        
+
     }
     drawScore(width/2 , 20 , score , 24 ,36); 
 } 
