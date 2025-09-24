@@ -166,7 +166,7 @@ function draw() {
 
             noLoop();
 
-        setTim
+        setTime
         }
 
     }
