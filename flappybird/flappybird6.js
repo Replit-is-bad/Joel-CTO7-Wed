@@ -36,6 +36,8 @@ function preload() {
     }
 
     flapSound = createAudio('assets/')
+    flapSound = createAudio('assets/')
+    failSound = createAudio('assets/')
 }
 
 function setup() {
