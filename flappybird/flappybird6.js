@@ -54,7 +54,7 @@ function setup() {
 
     bird.collider = "dynamic";
     bird.mass =2000;
-    bird.drag = 0.5 ;
+    bird.drag = 4 ;
     bird.bouciness =0.02;
 
 
