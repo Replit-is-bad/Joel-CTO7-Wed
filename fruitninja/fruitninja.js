@@ -14,7 +14,8 @@ function preload() {
         whole: loadImage('assets/watermelonwhole.png')
     }
 
-    fruitTypes = [peach]
+    fruitTypes = [peach , watermelon];
+
 }
 
 function setup() {
@@ -22,6 +23,8 @@ function setup() {
     new Canvas(800, 600);
 
     world.gravity.y = 10;
+
+    
 }
 
 function draw() {
