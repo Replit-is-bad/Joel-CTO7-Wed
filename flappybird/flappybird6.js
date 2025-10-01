@@ -95,7 +95,7 @@ function draw() {
         }
     if (startGame){
 
-        bird.collider
+        bird.collider ='dynamic';
         if(kb.presses('space') || mouse.presses()) {
             bird.vel.y = -5;
             bird.sleeping = false;
