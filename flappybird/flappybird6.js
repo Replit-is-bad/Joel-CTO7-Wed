@@ -94,6 +94,8 @@ function draw() {
         
         }
     if (startGame){
+
+        bird.collider
         if(kb.presses('space') || mouse.presses()) {
             bird.vel.y = -5;
             bird.sleeping = false;
