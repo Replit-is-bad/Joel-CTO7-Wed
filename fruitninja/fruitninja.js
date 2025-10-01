@@ -37,7 +37,7 @@ function draw() {
     }
 
     if(mouse.pressing()){
-        trail = new
+        trail = new Sprite(mouse )
     }
 } 
 
