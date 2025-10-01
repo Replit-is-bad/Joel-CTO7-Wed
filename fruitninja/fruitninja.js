@@ -11,8 +11,10 @@ function preload() {
     }
 
     let watermelon = {
-        whole: loadImage('assets/water whole.png')
+        whole: loadImage('assets/watermelonwhole.png')
     }
+
+    fruitTypes
 }
 
 function setup() {
