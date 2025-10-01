@@ -10,3 +10,6 @@ function setup() {
     world.gravity.y = 10;
 }
 
+function draw() {
+    
+}
