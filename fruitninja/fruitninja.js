@@ -45,5 +45,5 @@ function spawnFruit() {
     fruit.img = fruitData.whole;
     fruit.type = fruitData;
     fruit.vel.x = random(-2, 2);
-    fr
+    fruit.vel.y = random
 }
