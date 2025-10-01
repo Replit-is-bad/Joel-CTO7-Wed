@@ -33,14 +33,14 @@ function draw() {
     image(dojoBG, 0, 0, width, height);
 
     if(frameCount % 120 === 0) {
-        spawnFruit();
+        let
     }
 
     if(mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 7);
         trail.collider = 'none';
         trail.color = 'red';
-        
+        trail.life = 10;
     }
 } 
 
@@ -52,5 +52,6 @@ function spawnFruit() {
     fruit.img = fruitData.whole;
     fruit.type = fruitData;
     fruit.vel.x = random(-2, 2);
-    fruit.vel.y = random()
+    fruit.vel.y = random(-10, -14);
+    fruit.fr
 }
