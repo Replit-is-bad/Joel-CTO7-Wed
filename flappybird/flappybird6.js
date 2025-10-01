@@ -43,7 +43,7 @@ function preload() {
 function setup() {
     new Canvas(400,600);
 
-    world.gravity.y = 100;
+    world.gravity.y = 0;
 
     bird = new Sprite();
     bird.x = width/2;
