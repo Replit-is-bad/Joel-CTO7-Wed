@@ -35,6 +35,8 @@ function draw() {
     if(frameCount % 120 === 0) {
         spawnFruit();
     }
+
+    if(mouse.pressing())
 } 
 
 function spawnFruit() {
