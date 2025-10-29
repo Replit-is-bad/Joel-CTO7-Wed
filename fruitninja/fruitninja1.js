@@ -8,9 +8,9 @@ let score = 0;
 let missedFruits=0;
 let gameState = 'start'; 
 let gameStart = 0;
-let gameStartTime;
+let gameStartTime =0;
 let gameTimer = 0;
-let gameDuration;
+let gameDuration = 60;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
