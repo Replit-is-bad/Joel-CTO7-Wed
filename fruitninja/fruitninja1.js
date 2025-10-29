@@ -49,9 +49,9 @@ function draw() {
         fruitGroup.removeAll(); 
         fruitHalves.removeAll(); 
 
-        
+
         gameStartTime = millis();
-        game
+        gameTimer = 0;
 
     }
 
