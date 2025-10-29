@@ -10,7 +10,7 @@ let gameState = 'start';
 let gameStart = 0;
 let gameStartTime =0;
 let gameTimer = 0;
-let gameDuration = 60;
+let gameDuration = 10;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
@@ -65,7 +65,7 @@ function draw() {
         fill(255);
         textSize(48);
         textAlign(CENTER,CENTER);
-        text('GAME OVER',width/2,height/2);
+        text('GAME OVER',width/2,height/2 - 40);
         fill(255);
         textSize(24);
         text('Score: ' + score ,width/2,height/2);
