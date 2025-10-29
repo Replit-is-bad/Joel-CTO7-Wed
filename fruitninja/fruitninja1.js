@@ -113,6 +113,7 @@ function draw() {
         trail.life = 10; 
 
         sliceFruit(); 
+        
     }
 
     for(fruit of fruitGroup) {
