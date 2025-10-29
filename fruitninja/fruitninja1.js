@@ -62,6 +62,8 @@ function draw() {
 
         bgtrack.loop();
 
+        difficultyNumFruits = 1;
+
     }
 
     if(gameTimer >= gameDuration){
