@@ -61,7 +61,7 @@ function draw() {
 
     if(gameState == 'gameover'){
         fill(0,180);
-        rect(0,0)
+        rect(0,0,width, height)
     }
 
 
