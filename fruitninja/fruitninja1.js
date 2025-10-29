@@ -58,6 +58,10 @@ function draw() {
     if(gameTimer >= gameDuration){
         gameState = 'gameover';
     }
+    if(gameTimer >= gameDuration){
+        gameState = 'gameover';
+    }
+
 
     if(gameState === 'start') {
 
