@@ -59,7 +59,7 @@ function draw() {
         gameState = 'gameover';
     }
 
-    if(gameState >= gameDuration){
+    if(gameState == ''){
         gameState = 'gameover';
     }
 
