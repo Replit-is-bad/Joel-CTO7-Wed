@@ -26,6 +26,8 @@ function preload() {
     }; 
 
     fruitTypes = [peach, watermelon]; 
+
+    bg
 }
 
 function setup() {
