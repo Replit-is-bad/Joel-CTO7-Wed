@@ -28,8 +28,8 @@ function preload() {
 
     fruitTypes = [peach, watermelon]; 
 
-    btrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
-    btrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
+    bgtrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
+    rack= createAudio('assets/fruit-ninja-bgtrack.mp3');
 }
 
 function setup() {
