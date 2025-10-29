@@ -14,7 +14,7 @@ let gameDuration = 10;
 let bgtrack;
 let comboTrack;
 let difficultyNumFruits = 1;
-let last;
+let lastDifficulty;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
