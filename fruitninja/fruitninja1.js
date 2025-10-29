@@ -146,7 +146,8 @@ function draw() {
     text('Time: ' + (gameDuration - gameTimer), 400 ,10);
 
     if (gameTimer - lastDifficultyIncreases >= 15) {
-        difficultyNumFruits +=
+        difficultyNumFruits += 1;
+        lastDifficultyIncreases = game
     }
 }
 
