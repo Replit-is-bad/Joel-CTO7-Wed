@@ -100,7 +100,7 @@ function draw() {
     text("Score: " + score, 10, 10); 
     text("MissedFruits: " + missedFruits, 200, 10);
 
-    gameTimer = floor((millis() - game))
+    gameTimer = floor((millis() - gameStartTime))
 }
 
 function spawnFruit() {
