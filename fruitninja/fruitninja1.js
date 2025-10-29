@@ -60,7 +60,7 @@ function draw() {
     }
 
     if(gameState == 'gameover'){
-        fill;
+        fill(0,180);
     }
 
 
