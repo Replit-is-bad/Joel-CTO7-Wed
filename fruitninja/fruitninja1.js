@@ -90,7 +90,8 @@ function draw() {
         textAlign(CENTER, CENTER); 
         text('Fruit Ninja', width/2, height/2-40); 
         textSize(24); 
-        text('Press space or click to start', width/2, height/2 +20); 
+        text('Press space or click to start', width/2, height/2 +20);
+         
 
         return; 
     }
