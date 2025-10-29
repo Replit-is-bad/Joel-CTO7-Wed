@@ -65,6 +65,8 @@ function draw() {
         fill(255);
         textSize(48);
         textAlign(CENTER,CENTER);
+        fill(255);
+        TE
     }
 
 
