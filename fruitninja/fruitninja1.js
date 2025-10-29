@@ -69,7 +69,7 @@ function draw() {
         textSize(24);
         text('Score: ' + score ,width/2,height/2);
         text('Missed fruit: ' + missedFruits ,width/2,height/2 + 40);
-        text('press space to start ' + score ,width/2,height/2);
+        text('press space to start ',width/2,height/2 + 80);
     }
 
 
