@@ -27,7 +27,7 @@ function preload() {
 
     fruitTypes = [peach, watermelon]; 
 
-    bgCheck = create
+    bgCheck = createAu
 }
 
 function setup() {
