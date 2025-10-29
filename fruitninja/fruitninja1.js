@@ -144,6 +144,10 @@ function draw() {
     gameTimer = floor((millis() - gameStartTime) / 1000);
 
     text('Time: ' + (gameDuration - gameTimer), 400 ,10);
+
+    if (gameTimer - lastDifficultyIncreases >= 15) {
+        
+    }
 }
 
 function spawnFruit() {
