@@ -67,7 +67,7 @@ function draw() {
         textAlign(CENTER,CENTER);
         fill(255);
         textSize(24);
-        text('Score: ' + score ,wi)
+        text('Score: ' + score ,width/2,height/)
     }
 
 
