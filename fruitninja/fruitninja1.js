@@ -29,7 +29,7 @@ function preload() {
     fruitTypes = [peach, watermelon]; 
 
     bgtrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
-    combotrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
+    comboTrack= createAudio('assets/fruit-ninja-bgtrack.mp3');
 }
 
 function setup() {
