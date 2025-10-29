@@ -13,7 +13,7 @@ let gameTimer = 0;
 let gameDuration = 10;
 let bgtrack;
 let comboTrack;
-let difficultyTimer;
+let difficultyNUM;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
