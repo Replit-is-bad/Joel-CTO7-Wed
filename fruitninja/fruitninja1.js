@@ -78,7 +78,8 @@ function draw() {
         text('Score: ' + score ,width/2,height/2);
         text('Missed fruit: ' + missedFruits ,width/2,height/2 + 40);
         text('press space to start ',width/2,height/2 + 80);
-        gameState = 
+        gameState = 'start';
+        
         return;
     }
 
