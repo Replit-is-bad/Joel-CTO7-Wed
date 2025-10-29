@@ -48,6 +48,7 @@ function draw() {
         missedFruits = 0; 
         fruitGroup.removeAll(); 
         fruitHalves.removeAll(); 
+        gameStar
 
     }
 
