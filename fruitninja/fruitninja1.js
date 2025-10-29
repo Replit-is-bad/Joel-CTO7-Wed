@@ -68,7 +68,8 @@ function draw() {
         fill(255);
         textSize(24);
         text('Score: ' + score ,width/2,height/2);
-        
+        text('Score: ' + score ,width/2,height/2);
+        text('Score: ' + score ,width/2,height/2);
     }
 
 
