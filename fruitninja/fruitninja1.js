@@ -66,7 +66,7 @@ function draw() {
 
     }
 
-    if (frameCount)
+    if (frameCount % 120 === 0)
 
     if(gameTimer >= gameDuration){
         gameState = 'gameover';
