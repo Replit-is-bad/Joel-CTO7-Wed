@@ -55,7 +55,7 @@ function draw() {
 
     }
 
-    if(game)
+    if(gameTimer >= gameDuration)
 
     if(gameState === 'start') {
 
