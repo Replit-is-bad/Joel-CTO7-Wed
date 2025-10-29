@@ -66,7 +66,11 @@ function draw() {
 
     }
 
-    if (frameCount % 120 === 0)
+    if (frameCount % 120 === 0) {
+        for (let i  = 0; i < difficultyNumFruits; i++){
+            
+        }
+    }
 
     if(gameTimer >= gameDuration){
         gameState = 'gameover';
