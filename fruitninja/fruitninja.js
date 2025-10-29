@@ -30,14 +30,9 @@ function setup() {
 function draw() {
 
 
-    clear
+    clear();
 
-    if(frameCount % 120 === 0) {
-        let num = 5;
-        for(let i=0; i<num; i++) {
-            spawnFruit();
-        }
-    }
+    
 
     if(mouse.pressing()){
         trail = new Sprite(mouse.x, mouse.y, 7);
