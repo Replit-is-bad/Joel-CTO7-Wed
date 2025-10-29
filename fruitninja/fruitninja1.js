@@ -113,7 +113,7 @@ function draw() {
         trail.life = 10; 
 
         sliceFruit(); 
-        
+        comboTrack.pl
     }
 
     for(fruit of fruitGroup) {
