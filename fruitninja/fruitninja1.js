@@ -55,6 +55,8 @@ function draw() {
 
     }
 
+    if(game)
+
     if(gameState === 'start') {
 
         fill(0,180); 
