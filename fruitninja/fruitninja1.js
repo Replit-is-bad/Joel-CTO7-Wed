@@ -12,7 +12,7 @@ let gameStartTime =0;
 let gameTimer = 0;
 let gameDuration = 10;
 let bgtrack;
-comboTrack;
+let comboTrack;
 
 function preload() {
     dojoBG = loadImage('assets/dojobackground.png');
