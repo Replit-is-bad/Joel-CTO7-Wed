@@ -2,7 +2,7 @@ let word = ["Balls"];
 let attempt = 0;
 let hiddenW = '';
 let textBox;
-let
+let button;
 
 function setup(){
     new Canvas(600,400);
