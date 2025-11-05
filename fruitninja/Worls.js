@@ -1,5 +1,5 @@
 let word = ["Balls"]
-let attem
+let attempt
 
 function setup(){
     new Canvas(600,400);
@@ -18,7 +18,7 @@ function draw() {
 
 
 textBox = createInput();
-textBox.position(550 + width/2 - text)
+textBox.position(550 + width/2 - textBox)
 
 
 button = createButton('Guess');
