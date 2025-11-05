@@ -13,7 +13,8 @@ function setup(){
     button = createButton('Guess');
     button.position(textBox.x + textBox.width +30,300);
 
-    hiddenW = ran
+    hiddenW = random(word);
+    
 }
 
 function draw() {
