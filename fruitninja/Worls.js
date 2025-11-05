@@ -15,4 +15,4 @@ function draw() {
 
 
 
-button = createButton('')
+button = createButton('Guess')
