@@ -30,4 +30,6 @@ function draw() {
     text(display , width/2 , 350);
 }
 
-function displayText()
+function displayText() {
+    
+}
