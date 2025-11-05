@@ -1,3 +1,4 @@
+let
 
 function setup(){
     new Canvas();
@@ -5,4 +6,6 @@ function setup(){
 
 function draw() {
     background(220);
+
+    Text()
 }
