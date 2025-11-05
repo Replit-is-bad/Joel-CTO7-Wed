@@ -16,7 +16,8 @@ function draw() {
 
 
 
-textBox = createInput()
+textBox = createInput();
+textBox
 
 
 button = createButton('Guess');
