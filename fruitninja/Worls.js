@@ -10,3 +10,4 @@ function draw() {
     textAlign(CENTER)
     text('Guess the Word!' , width/2, 50);
 }
+
