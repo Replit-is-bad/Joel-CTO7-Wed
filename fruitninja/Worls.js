@@ -2,6 +2,9 @@ let word = ["Balls"]
 
 function setup(){
     new Canvas(600,400);
+
+    button = createButton('Guess');
+    button.position(textBox.x + textBox.width +30,300);
 }
 
 function draw() {
