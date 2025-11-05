@@ -15,7 +15,7 @@ function setup(){
 
     hiddenW = random(word);
     console.log(hiddenW);
-    hiddenW = hiddenW[0].toUpperCase() +' '+ '_ '.repeat(hiddenW)
+    hiddenW = hiddenW[0].toUpperCase() +' '+ '_ '.repeat(hiddenW.length-1);
 }
 
 function draw() {
