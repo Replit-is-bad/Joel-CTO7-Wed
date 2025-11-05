@@ -1,4 +1,5 @@
 let word = ["Balls"]
+let attem
 
 function setup(){
     new Canvas(600,400);
