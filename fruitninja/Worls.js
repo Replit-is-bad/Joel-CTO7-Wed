@@ -1,7 +1,8 @@
 let word = ["Balls"];
 let attempt = 0;
 let hiddenW = '';
-let T
+let textBox;
+let
 
 function setup(){
     new Canvas(600,400);
