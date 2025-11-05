@@ -7,5 +7,5 @@ function setup(){
 function draw() {
     background(220);
     textSize(24);
-    text();
+    text('Guess the Word');
 }
