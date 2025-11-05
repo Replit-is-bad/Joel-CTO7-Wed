@@ -47,7 +47,7 @@ function setup() {
     new Canvas(600, 400); 
 
     textBox = createInput(); 
-    textBox.position(width/2 - textBox.width/2 +500, 300); 
+    textBox.position(width/2 - textBox.width/2 +450, 300); 
 
     button = createButton('Guess'); 
     button.position(textBox.x + textBox.width + 30, 300);
