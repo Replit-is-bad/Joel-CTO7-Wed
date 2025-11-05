@@ -16,4 +16,4 @@ function draw() {
 
 
 button = createButton('Guess');
-button.position()
+button.position(textBox.x +)
