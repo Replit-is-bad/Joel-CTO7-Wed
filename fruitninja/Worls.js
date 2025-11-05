@@ -1,6 +1,7 @@
 let word = ["Balls"];
 let attempt = 0;
-let hiddenW = ''
+let hiddenW = '';
+let T
 
 function setup(){
     new Canvas(600,400);
