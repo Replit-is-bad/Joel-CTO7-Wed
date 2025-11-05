@@ -1,4 +1,4 @@
 
 function setup(){
-    new canva
+    new CanvasCaptureMediaStreamTrack
 }
