@@ -1,4 +1,4 @@
-let wor
+let word = []
 
 function setup(){
     new Canvas();
