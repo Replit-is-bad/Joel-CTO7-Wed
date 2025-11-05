@@ -3,7 +3,7 @@ let attempt = 0;
 let hiddenW = '';
 let textBox;
 let button;
-let di
+let display;
 
 function setup(){
     new Canvas(600,400);
@@ -26,5 +26,5 @@ function draw() {
     textAlign(CENTER)
     text('Guess the Word!' , width/2, 50);
     text('Attempts: ' ,attempt, width/2, 100);
-    text('Hints : ' ,hiddenW, width/2, 100);
+    text('Hints : ' ,hiddenW, width/2, 150);
 }
