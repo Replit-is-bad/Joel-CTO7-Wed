@@ -1,4 +1,4 @@
-let word = ["Balls"]
+let word = ["Balls"];
 let attempt = 0;
 
 function setup(){
