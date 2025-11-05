@@ -6,6 +6,6 @@ function setup(){
 
 function draw() {
     background(220);
-
-    Text()
+    text
+    text()
 }
