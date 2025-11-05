@@ -1,4 +1,4 @@
-let
+let wor
 
 function setup(){
     new Canvas();
