@@ -3,6 +3,7 @@ let attempt = 0;
 let hiddenW = '';
 let textBox;
 let button;
+let di
 
 function setup(){
     new Canvas(600,400);
@@ -12,7 +13,7 @@ function setup(){
 
     button = createButton('Guess');
     button.position(textBox.x + textBox.width +30,300);
-    button.mousePressed(displayText)
+    button.mousePressed(displayText);
 
     hiddenW = random(word);
     console.log(hiddenW);
