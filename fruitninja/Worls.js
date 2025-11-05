@@ -1,5 +1,5 @@
 let word = ["Balls"]
-let attempt
+let attempt = 0;
 
 function setup(){
     new Canvas(600,400);
