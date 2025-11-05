@@ -15,7 +15,7 @@ function setup(){
 
     hiddenW = random(word);
     console.log(hiddenW);
-    
+    hiddenW = hiddenW
 }
 
 function draw() {
