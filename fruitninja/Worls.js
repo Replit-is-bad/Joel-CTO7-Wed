@@ -14,7 +14,7 @@ function setup(){
     button.position(textBox.x + textBox.width +30,300);
 
     hiddenW = random(word);
-    
+    console.log()
 }
 
 function draw() {
