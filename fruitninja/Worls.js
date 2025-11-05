@@ -23,5 +23,5 @@ function draw() {
     textSize(24);
     textAlign(CENTER)
     text('Guess the Word!' , width/2, 50);
-    text('Guess the Word!' , width/2, 50);
+    text('Attempts: ' , width/2, 50);
 }
