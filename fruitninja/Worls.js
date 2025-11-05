@@ -16,4 +16,4 @@ function draw() {
 
 
 button = createButton('Guess');
-button
+button.position()
